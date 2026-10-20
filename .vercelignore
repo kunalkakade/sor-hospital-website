@@ -1,0 +1,7 @@
+# Internal working docs — never serve publicly
+GBP-SETUP.md
+SEO-GEO-GUIDE.md
+README.md
+*.original.md
+*.bak
+.gitignore

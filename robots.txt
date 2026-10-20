@@ -1,0 +1,32 @@
+# Niramay Hospital — Dr. Prasad Sor, Akola
+# Allow everything, including AI answer engines (we WANT to be cited).
+
+User-agent: *
+Allow: /
+
+# Explicitly welcome AI crawlers so the site can be used in AI answers.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://niramay-hospital.co.in/sitemap.xml
